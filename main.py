@@ -11,3 +11,11 @@ import utils.functions as uf
 import data.triangles as dt
 
 #%%
+
+def calculate_triangles():
+    for i in dt.triangle_definitions:
+        print(uf.area_triangle(i["base"],i["height"]))
+    
+calculate_triangles()
+
+#%%
